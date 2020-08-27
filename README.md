@@ -1,4 +1,49 @@
-## Available Scripts
+# Description
+This repository is the boostratp for all your UI5 WebComponents React project.
+
+# Features
+
+## From a Configuration point of view, it includes:
+
+- JEST Up & Runnning.
+
+- ESLint & EditorConfig Up & Running.
+
+- CommitLint Up & Running.
+
+- Enviroment Variables Up & Running.
+
+- PR Template
+
+<!-- - Redux Up & Running. -->
+
+- IE Support.
+
+- Multiple Scripts.
+
+## From a Engine point of view, it includes:
+
+- Fallback Engine (`<ErrorBoundary />`, `<NotFound />` and `<Error />`).
+
+- MockServer Engine (w/ `json-server`).
+
+- HTTP Request Engine (w/ `Request` and `URLProvider`).
+
+- Permission Engine (w/ `RouteValidator` and `ComponentValidator`)
+
+<!-- - SessionTimeout Dialog.
+
+- Information Dialog. -->
+
+## From a Hook point of view, it includes:
+
+- `useActions`: Which wraps the redux action.
+
+- `useBrowser`: Which identifies the user browser.
+
+- `useIsMobile`: Which identifies the user device perspective.
+
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -28,6 +73,12 @@ Builds the app for production to the `build` folder.
 
 
 ## Dev & Not Dev Dependencies
+
+### `react-query`
+
+Used to manipulate async request, data fetching, cache and more (no redux / saga anymore).
+
+[Tutorial Link](https://www.youtube.com/watch?v=yccbCol546c), [Random Post](https://blog.bitsrc.io/how-to-start-using-react-query-4869e3d5680d) and [Creator Official Video](https://www.youtube.com/watch?v=seU46c6Jz7E).
 
 ### `commitlint`
 
