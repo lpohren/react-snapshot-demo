@@ -1,5 +1,5 @@
 # Description
-This repository is the boostratp for all your UI5 WebComponents React project.
+The goal of this repository is to increase the boostrap time spent on a new project with several things already set.
 
 # Features
 
@@ -13,9 +13,9 @@ This repository is the boostratp for all your UI5 WebComponents React project.
 
 - Enviroment Variables Up & Running.
 
-- PR Template
+- Internalization Up & Running.
 
-<!-- - Redux Up & Running. -->
+- PR Template.
 
 - IE Support.
 
@@ -37,11 +37,11 @@ This repository is the boostratp for all your UI5 WebComponents React project.
 
 ## From a Hook point of view, it includes:
 
-- `useActions`: Which wraps the redux action.
-
 - `useBrowser`: Which identifies the user browser.
 
 - `useIsMobile`: Which identifies the user device perspective.
+
+- `useRequest`: Which includes `get`, `post`, `patch`, `delete`, `put` HTTP helpers.
 
 # Available Scripts
 
@@ -79,6 +79,18 @@ Builds the app for production to the `build` folder.
 Used to manipulate async request, data fetching, cache and more (no redux / saga anymore).
 
 [Tutorial Link](https://www.youtube.com/watch?v=yccbCol546c), [Random Post](https://blog.bitsrc.io/how-to-start-using-react-query-4869e3d5680d) and [Creator Official Video](https://www.youtube.com/watch?v=seU46c6Jz7E).
+
+### `react-helmet`
+
+Used to manpilate DOM attributes through JSX such as `<head>`.
+
+### `react-i18next`
+
+Used to translate strings and text in the application following the Internationalization pattern.
+
+### `i18next-browser-languagedetector`
+
+Used to identify the browsers culture and change the applications text accordingly.
 
 ### `commitlint`
 
