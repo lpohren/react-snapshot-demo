@@ -168,6 +168,3 @@ Used to support old browsers.
 
 Used to support jest and its scripts with the new engine.
 
-# Contributing
-
-Take a look into our Kanban Board [here](https://github.com/LuisValgoi/ui5-webcomponents-react-seed/projects/1?fullscreen=true).
