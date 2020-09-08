@@ -2,9 +2,9 @@ import React from 'react'
 import { useHistory } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import CenteredLink from '../../../components/CenteredLink/CenteredLink';
+import CenteredLink from '../../../components/Link/Link';
 import BrowserURL from '../../../util/BrowserURL';
-import ComponentValidator from '../../../auth/ComponentValidator';
+import ComponentValidator from '../../../auth/Components/Validator';
 
 export default function TodoList() {
   const history = useHistory();

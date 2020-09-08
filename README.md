@@ -1,9 +1,30 @@
-# Description
-The goal of this repository is to increase the boostrap time spent on a new project with several things already set.
+# Goal
+ 
+To deacrease the boostrap time spent on projects which uses **React + UI5 WebComponents React**.
 
-# Features
+# Usage
 
-## From a Configuration point of view, it includes:
+- open the terminal;
+- go to a random folder you want;
+- `npx create-react-app folderrr --template ui5-webcomponents-react-seed`;
+- cd into `folderrr`;
+- run `yarn install`;
+- run `yarn test:ci` or any other;
+- have fun with the other scripts;
+
+PS.: It is important to add the `--template ui5-webcomponents-react-seed` at the end to get our template.
+
+# Getting Started
+
+Once you have created your project using the `ui5-webcomponents-react-seed` template, you can start by:
+
+- `yarn install`: To install this project dependencies.
+
+- `yarn mock`: To run this project with json-server.
+
+- `yarn start`: To run this project with backend (⚠️ currently not supported).
+
+# Configuration Included
 
 - JEST Up & Runnning.
 
@@ -21,7 +42,8 @@ The goal of this repository is to increase the boostrap time spent on a new proj
 
 - Multiple Scripts.
 
-## From a Engine point of view, it includes:
+
+# Engine Included
 
 - Fallback Engine (`<ErrorBoundary />`, `<NotFound />` and `<Error />`).
 
@@ -31,11 +53,8 @@ The goal of this repository is to increase the boostrap time spent on a new proj
 
 - Permission Engine (w/ `RouteValidator` and `ComponentValidator`)
 
-<!-- - SessionTimeout Dialog.
 
-- Information Dialog. -->
-
-## From a Hook point of view, it includes:
+# Hooks Included
 
 - `useBrowser`: Which identifies the user browser.
 
@@ -43,7 +62,9 @@ The goal of this repository is to increase the boostrap time spent on a new proj
 
 - `useRequest`: Which includes `get`, `post`, `patch`, `delete`, `put` HTTP helpers.
 
-# Available Scripts
+- `useAuthority`: Which includes `hasAccess` helpers.
+
+# Scripts Included
 
 In the project directory, you can run:
 
@@ -72,7 +93,34 @@ Executes the test runner and generates the report.
 Builds the app for production to the `build` folder.
 
 
-## Dev & Not Dev Dependencies
+# Suggested Extensions
+
+### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+This will help you when building the JSX files by renaming the closing for you.
+
+### [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+This will help you to use the defined coding style at the `.editoronfig` file during development.
+
+### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+This will help you to use the defined coding style at the `.eslintrc` file during development.
+
+### [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest#the-aim) & [Jest Runner](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+This will help you run and debug your `*.test.js` file during file during test-development.
+
+### [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+This will help you better see the folders and files icons according to its extensions/subject.
+
+
+# Dependencies Included
+
+### `types/jest`
+
+Autocomplete/Intelissense your testing methods from the JEST lib.
 
 ### `react-query`
 
